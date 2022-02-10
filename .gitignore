@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 /vp2
 /media
+.replit
+poetry.lock
+pyproject.toml
 
 # C extensions
 *.so
