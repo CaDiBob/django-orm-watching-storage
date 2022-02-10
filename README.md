@@ -12,26 +12,7 @@ pip install -r requiremens.txt
 
 ### Как запустить
 
-Для запуска требуется прописать параметры подключения к базе данных в файле
-```
-/project/settings.py
-```
-```Python
-import os
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': 'host',
-        'PORT': 'port',
-        'NAME': 'name',
-        'USER': 'user',
-        'PASSWORD': 'password',
-    }
-}
-
-```
-Затем используйте
+Используйте
 
 ```
 Python main.py
