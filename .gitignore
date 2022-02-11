@@ -7,6 +7,7 @@ __pycache__/
 .replit
 poetry.lock
 pyproject.toml
+/orm
 
 # C extensions
 *.so
