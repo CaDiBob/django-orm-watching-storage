@@ -12,9 +12,25 @@ pip install -r requiremens.txt
 
 ### Как запустить
 
-Используйте
+Для запуска нужно прописать настройки в файле `.env`
+
+Пример `.env`
 
 ```
-Python main.py
+DEBUG=false
+DATABASE_HOST='адрес хоста'
+DATABASE_PORT='порт'
+DATABASE_NAME='имя'
+DATABASE_USER='логин'
+DATABASE_PASSWORD='пароль'
+```
+Затем используйте
+
+```
+python manage.py runserver
 ```
 Запустится локальный сервер, сайт будет доступен по адресу: `http://127.0.0.1:8000/`
+
+### Цель проекта
+
+Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
