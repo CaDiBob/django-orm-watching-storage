@@ -17,12 +17,10 @@ pip install -r requiremens.txt
 Пример `.env`
 
 ```
-DEBUG=false
-DATABASE_HOST='адрес хоста'
-DATABASE_PORT='порт'
-DATABASE_NAME='имя'
-DATABASE_USER='логин'
-DATABASE_PASSWORD='пароль'
+DEBUG=False
+SECRET_KEY='секретный ключ'
+DATABASE_URL='postgres://логин:пароль@адрес_хоста:порт/имя'
+ALLOWED_HOSTS=ваши адреса сайтов '127.0.0.1'
 ```
 Затем используйте
 
