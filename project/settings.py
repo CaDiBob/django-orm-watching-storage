@@ -8,9 +8,7 @@ env = Env()
 env.read_env('.env')
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    }
+    'default':{}
 }
 
 INSTALLED_APPS = ['datacenter']
